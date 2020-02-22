@@ -1,15 +1,5 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Sass Landing Page,
-    Template URI: site.com
-    Description: Sass Landing Page,
-    Author: Uideck
-    Author URI: https://uideck.com/
-    Support: https://uideck.com/support/
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
     CSS INDEX
     ===================
 
@@ -1265,6 +1255,34 @@ p {
       width: 15px;
       height: 15px; }
 
+
+
+.work-active .slick-dots {
+  padding-top: 15px;
+  text-align: center;
+  margin: 0 auto; }
+  .work-active .slick-dots li {
+    display: inline-block;
+    margin: 0 4px; }
+    .work-active .slick-dots li button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #fe8464 0%, #fe6e9a 100%);
+      border: 0;
+      font-size: 0;
+      opacity: 0.5;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+    .work-active .slick-dots li.slick-active button {
+      opacity: 1;
+      width: 15px;
+      height: 15px; }
+
+
 /*===========================
        09.BLOG  css 
 ===========================*/
@@ -1517,3 +1535,12 @@ p {
   display: none; }
   .back-to-top:hover {
     color: #fff; }
+
+.slider-work {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.work-image {
+  padding: 15px;
+  height: 350px;
+}
